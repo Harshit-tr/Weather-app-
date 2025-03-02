@@ -79,7 +79,7 @@ export default function Header({ setCity, weatherDescription }) {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
         position="static"
-        sx={{ background: getBackgroundColor(weatherDescription) }}
+        sx={{ background: getBackgroundColor(weatherDescription), m: 2 }}
       >
         <Toolbar>
           <Typography
